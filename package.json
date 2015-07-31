@@ -1,0 +1,26 @@
+{
+  "name": "words",
+  "version": "1.0.0",
+  "description": "words api",
+  "main": "app.coffee",
+  "dependencies": {
+    "express": "^4.13.1",
+    "body-parser": "^1.13.2",
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdheff/words.git"
+  },
+  "author": "Tommy Heffernan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdheff/words/issues"
+  },
+  "homepage": "https://github.com/tdheff/words#readme"
+}
