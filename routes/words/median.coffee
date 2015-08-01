@@ -14,4 +14,4 @@ module.exports = (req, res) ->
   console.log (_.sortBy counts_arr, (a) -> return a[1] )
 
   # return the midpoint of the list
-  res.json { median: (_.sortBy counts_arr, (a) -> a[1] )[counts_arr.length/2] }
+  res.json { median: (_.sortBy counts_arr, (a) -> a[1] )[counts_arr.length/2][0] }
